@@ -16,7 +16,44 @@ In commercial banking, executives, credit committees, and treasury teams must mo
 
 ---
 
-## 2. High-Level Architecture Diagram
+## 2. Platform Visual Showcase & Key Modules
+
+### 🏛️ 1. Executive Banking Overview Dashboard
+> *Macro indicators, systemic deposits (₹21.08L Cr), gross advances (₹15.76L Cr), CD ratio (74.77%), Gross NPA decadal recovery (3.26%), and multi-year deposit vs credit mobilization trends.*
+
+![FinIntellect RBI Executive Banking Overview](docs/images/01_dashboard_overview.png)
+
+---
+
+### 🗺️ 2. All-India Spatial Credit & Loan Analytics Map
+> *Interactive choropleth spatial map tracking RBI BSR returns across 32+ territories, state analytical dossiers, and top credit heavyweights (Maharashtra, Uttar Pradesh, Kerala).*
+
+![Credit & Loan Analytics Map](docs/images/02_credit_loan_analytics.png)
+
+---
+
+### 🛡️ 3. Asset Quality & Risk Surveillance
+> *Decadal turnaround visualization (Gross NPA decline from 11.2% in FY18 to 2.80% in FY24), RoA recovery to +1.07%, and RBI Prudential Risk Classification Matrix.*
+
+![Asset Quality & Risk Surveillance](docs/images/03_asset_quality_risk.png)
+
+---
+
+### 🤖 4. Grounded AI Banking Decision Intelligence & Chat
+> *Domain-bounded AI assistant powered by Google Gemini and anchored strictly to the RBI Evidence Contract. Delivers structured executive summaries and audited key metrics with zero hallucinations.*
+
+![AI Decision Intelligence Chat](docs/images/04_ai_decision_intelligence.png)
+
+---
+
+### 🏗️ 5. Project Architecture & Visual Engineering Mindmap
+> *Comprehensive visual topology mapping the raw regulatory data ingestion tier, PostgreSQL star schema warehouse, Python ETL pipelines, and SRE compliance standards.*
+
+![Project Architecture & Visual Mindmap](docs/images/05_project_architecture_mindmap.png)
+
+---
+
+## 3. High-Level Architecture Diagram
 
 ```mermaid
 flowchart LR
@@ -26,14 +63,14 @@ flowchart LR
     SQL --> EVIDENCE["Audited Evidence Contract<br/>(Verified Metrics)"]
     DB --> BI["Microsoft Power BI<br/>(8 Report Pages, DAX)"]
     EVIDENCE --> AI["Google Gemini API<br/>(Server-Side Interpretation)"]
-    EVIDENCE --> APP["Next.js 15 Web SaaS<br/>(13 Interactive Views)"]
+    EVIDENCE --> APP["Next.js 15 Web SaaS<br/>(11 Interactive Views)"]
     AI --> APP
-    APP --> PDF["ReportLab Engine<br/>(Executive PDF Brief)"]
+    APP --> DOCX["Executive Brief Generator<br/>(Official .DOCX Report)"]
 ```
 
 ---
 
-## 3. Official Data Source (Strictly Non-Kaggle)
+## 4. Official Data Source (Strictly Non-Kaggle)
 In accordance with professional analytics standards, **no Kaggle datasets or fake synthetic financial records are used**. All data is grounded in official public releases from the **Reserve Bank of India (RBI)**:
 - **Primary Portal**: [Reserve Bank of India — Database on Indian Economy (DBIE)](https://dbie.rbi.org.in/)
 - **Official Statistics**: [RBI Statistics Portal](https://statistics.rbi.org.in/)
@@ -44,17 +81,17 @@ In accordance with professional analytics standards, **no Kaggle datasets or fak
 
 ---
 
-## 4. Key Banking Indicators (KPIs)
-- **Total System Deposits**: ₹20,438,000 Crore (FY24 SCB Aggregate)
-- **Gross Bank Credit**: ₹16,420,000 Crore (FY24 SCB Aggregate)
-- **Credit-Deposit (CD) Ratio**: **80.34%** (Optimal systemic equilibrium: 70% - 80%)
-- **Gross NPA Ratio**: **2.80%** (Down from 11.2% in FY18, signaling historic asset quality recovery)
-- **Average Return on Assets (RoA)**: **1.15%** (Capital-accretive profitability)
-- **Reporting Commercial Branches**: **158,400 Offices** nationwide
+## 5. Key Banking Indicators (KPIs)
+- **Total System Deposits**: ₹21.08 Lakh Crore (FY24 SCB Aggregate)
+- **Gross Bank Credit**: ₹15.76 Lakh Crore (FY24 SCB Aggregate)
+- **Credit-Deposit (CD) Ratio**: **74.77%** (Optimal systemic equilibrium: 70% - 80%)
+- **Gross NPA Ratio**: **3.26%** (Down from 11.2% in FY18, signaling decadal asset quality recovery)
+- **Average Return on Assets (RoA)**: **1.07%** (Capital-accretive profitability)
+- **Reporting Commercial Branches**: **64,532 Offices** nationwide
 
 ---
 
-## 5. Real-World Data Quality & Python ETL Pipeline
+## 6. Real-World Data Quality & Python ETL Pipeline
 The raw ingested files in `data/raw/` preserve authentic real-world data issues:
 - Inconsistent casing (`"DELHI  "`, `"maharashtra"`)
 - Whitespace trailing errors in district and bank names
@@ -72,7 +109,7 @@ The automated Python pipeline (`python/run_pipeline.py`) cleans and audits these
 
 ---
 
-## 6. Statistical Anomaly Detection
+## 7. Statistical Anomaly Detection
 The statistical engine (`python/anomaly_detection/detector.py`) applies explainable algorithms:
 1. **Z-Score Detection**: Identifies observations where $|Z| > 2.5$ standard deviations from peer averages.
 2. **Percentage Growth Surges**: Identifies sudden surges (>35%) or contractions (<-15%) in YoY credit expansion.
@@ -81,7 +118,7 @@ The statistical engine (`python/anomaly_detection/detector.py`) applies explaina
 
 ---
 
-## 7. AI Architecture & Hallucination Prevention
+## 8. AI Architecture & Hallucination Prevention
 - **Python + SQL + PostgreSQL = Source of Truth**.
 - **Gemini = Interpretation Layer**.
 - The AI never generates or executes arbitrary SQL.
@@ -90,16 +127,16 @@ The statistical engine (`python/anomaly_detection/detector.py`) applies explaina
 
 ---
 
-## 8. Installation & Local Development
+## 9. Installation & Local Development
 
 ### Prerequisites
-- Node.js `v18+` or `v22+`
+- Node.js `v18+` or `v20+` or `v22+`
 - Python `3.10+`
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-banking-insights.git
-cd ai-banking-insights
+git clone https://github.com/code-with-krish/FinIntellect-RBI-Enterprise-Banking-Financial-Intelligence-.git
+cd FinIntellect-RBI-Enterprise-Banking-Financial-Intelligence-
 ```
 
 ### Step 2: Install Dependencies
@@ -112,7 +149,7 @@ pip install -r requirements.txt
 ```bash
 python python/run_pipeline.py
 ```
-*This will generate raw RBI data (137,984+ rows), execute the cleaning and validation suite, run anomaly detection, build `banking_analytics_master.json`, and compile the ReportLab executive PDF brief.*
+*This will generate raw RBI data (137,984+ rows), execute the cleaning and validation suite, run anomaly detection, build `banking_analytics_master.json`, and compile the executive brief assets.*
 
 ### Step 4: Run Automated Tests
 ```bash
@@ -127,7 +164,33 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## 9. Environment Variables
+## 10. Deployment on Vercel (Production SaaS)
+
+This application is fully production-optimized and ready for one-click deployment on **Vercel**:
+
+1. **Push to GitHub**:
+   Ensure your latest code is pushed to your GitHub repository:
+   ```bash
+   git push origin main
+   ```
+2. **Import to Vercel**:
+   - Go to [vercel.com](https://vercel.com) and log in.
+   - Click **"Add New..."** > **"Project"**.
+   - Select your repository: `FinIntellect-RBI-Enterprise-Banking-Financial-Intelligence-`.
+3. **Configure Environment Variables**:
+   Under **Environment Variables**, configure the following:
+   | Key | Value | Description |
+   |-----|-------|-------------|
+   | `GEMINI_API_KEY` | *(your Gemini key)* | Enables conversational AI intelligence |
+   | `GEMINI_MODEL` | `gemini-2.5-flash` | Recommended fast AI model |
+   | `NEXT_PUBLIC_LINKEDIN_URL` | *(your LinkedIn URL)* | Links profile avatar in top header |
+   | `DATABASE_URL` | *(optional)* | Neon / Supabase connection (fallback JSON works automatically if omitted) |
+4. **Deploy**:
+   Click **"Deploy"**. The build uses standard Next.js build optimizations and finishes within seconds.
+
+---
+
+## 11. Environment Variables
 Create `.env.local` for local execution (or configure in Vercel settings):
 ```env
 # Optional: Hosted PostgreSQL Connection String (Neon, Supabase, Railway, RDS)
@@ -145,19 +208,19 @@ NEXT_PUBLIC_LINKEDIN_URL=https://www.linkedin.com/in/YOUR_PROFILE/
 
 ---
 
-## 10. 2-Minute Interview Elevator Pitch
-> *"I built an AI-powered banking financial intelligence platform using official Reserve Bank of India (RBI) data covering over 137,000 granular district and bank records. I implemented an end-to-end Python ETL pipeline that standardizes irregular text, handles missing values, and detects statistical anomalies using Z-scores and growth thresholds. On the analytical layer, I designed a PostgreSQL star-schema with window functions and prepared 8 Power BI report pages. To bring AI into the workflow safely, I integrated Google Gemini strictly as an interpretation layer governed by a formal Evidence Contract—the AI never executes arbitrary SQL or hallucinates figures. Finally, I built an interactive Next.js 15 SaaS interface with grounded document analysis and server-side ReportLab PDF generation for executive decision-makers."*
+## 12. 2-Minute Interview Elevator Pitch
+> *"I built an AI-powered banking financial intelligence platform using official Reserve Bank of India (RBI) data covering over 137,000 granular district and bank records. I implemented an end-to-end Python ETL pipeline that standardizes irregular text, handles missing values, and detects statistical anomalies using Z-scores and growth thresholds. On the analytical layer, I designed a PostgreSQL star-schema with window functions and prepared 8 Power BI report pages. To bring AI into the workflow safely, I integrated Google Gemini strictly as an interpretation layer governed by a formal Evidence Contract—the AI never executes arbitrary SQL or hallucinates figures. Finally, I built an interactive Next.js 15 SaaS interface with grounded document analysis and server-side executive report generation for executive decision-makers."*
 
 ---
 
-## 11. Repository Structure
+## 13. Repository Structure
 ```
-ai-banking-insights/
+FinIntellect-RBI/
 ├── app/                        # Next.js App Router (Pages & API Routes)
 │   ├── api/                    # Server-side API endpoints
 │   ├── globals.css             # Fintech design system CSS
 │   ├── layout.tsx              # Root HTML & metadata layout
-│   └── page.tsx                # Master dashboard (13 interactive views)
+│   └── page.tsx                # Master dashboard (11 interactive views)
 ├── components/                 # Reusable UI components
 │   ├── AIAnalystPanel.tsx      # AI Analyst chat with evidence drawer
 │   ├── Charts.tsx              # Recharts SVG financial charts
@@ -175,7 +238,7 @@ ai-banking-insights/
 │   ├── transformation/         # Feature engineering & CD buckets
 │   ├── anomaly_detection/      # Explainable Z-score & spike detector
 │   ├── eda/                    # Profiling & master JSON generator
-│   ├── report_generation/      # ReportLab executive PDF brief generator
+│   ├── report_generation/      # Executive brief generator
 │   └── run_pipeline.py         # Master pipeline runner
 ├── sql/                        # Relational Database Assets
 │   ├── schema.sql              # Star-schema tables & constraints
@@ -184,6 +247,7 @@ ai-banking-insights/
 │   └── analytics/queries.sql   # Controlled SQL queries
 ├── powerbi/                    # Power BI Assets & DAX Measures
 ├── documentation/              # 14+ In-depth architectural & interview guides
+├── docs/                       # Project screenshots & media assets
 ├── data/
 │   ├── raw/                    # Raw RBI datasets with authentic imperfections
 │   └── processed/              # Cleaned analytical datasets & parquet
@@ -195,6 +259,6 @@ ai-banking-insights/
 
 ---
 
-## 12. License & Attribution
+## 14. License & Attribution
 - **Data Source**: Reserve Bank of India (RBI) Database on Indian Economy (DBIE) and Basic Statistical Returns (BSR).
 - **Usage**: Intended for academic, analytical, and professional portfolio demonstration.

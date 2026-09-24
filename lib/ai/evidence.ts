@@ -122,7 +122,7 @@ export function buildEvidenceForIntent(intent: string, queryText: string): Analy
       source: 'Reserve Bank of India SCB Group Tables',
       calculation_source: 'Group Aggregate Sum',
       validation_status: 'validated',
-      context_note: `Average GNPA Ratio: ${bg.avg_gnpa_ratio}%, Average RoA: ${bg.avg_roa}%, CD Ratio: ${bg.cd_ratio}%`
+      context_note: `Average GNPA Ratio: ${bg.avg_gnpa_ratio}%, Average RoA: ${bg.avg_roa}%, CD Ratio: ${bg.total_deposits > 0 ? ((bg.total_advances / bg.total_deposits) * 100).toFixed(2) : '0.00'}%`
     });
   });
 
