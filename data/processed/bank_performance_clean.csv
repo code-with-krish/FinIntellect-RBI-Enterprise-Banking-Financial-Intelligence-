@@ -1,0 +1,253 @@
+bank_name,bank_group,established_year,ownership_type,fiscal_year,total_deposits_crore,total_advances_crore,gross_npa_crore,net_npa_crore,gnpa_ratio_pct,nnpa_ratio_pct,cd_ratio_pct,return_on_assets_pct,return_on_equity_pct,net_profit_crore,provision_coverage_ratio_pct,risk_classification,deposit_yoy_growth_pct,credit_yoy_growth_pct,gnpa_yoy_change_pct
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2018,7877.12,6467.12,602.74,168.79,9.32,2.61,82.1,-0.43,-4.15,-27.1,72.0,Elevated Watch / High Risk,0.0,0.0,0.0
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2019,8022.79,6321.96,589.84,136.55,9.33,2.16,78.8,-0.15,-1.55,-9.63,76.85,Elevated Watch / High Risk,1.85,-2.24,0.01
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2020,8746.98,6175.37,471.8,125.36,7.64,2.03,70.6,0.27,3.05,18.89,73.43,Elevated Watch / High Risk,9.03,-2.32,-1.69
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2021,10122.91,8381.77,523.02,138.3,6.24,1.65,82.8,0.34,4.06,27.53,73.56,Elevated Watch / High Risk,15.73,35.73,-1.4
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2022,10833.25,8374.1,520.87,149.06,6.22,1.78,77.3,0.66,6.87,57.2,71.38,Elevated Watch / High Risk,7.02,-0.09,-0.02
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2023,11582.87,7911.1,409.79,125.0,5.18,1.58,68.3,1.11,10.82,102.86,69.5,Moderate Risk,6.92,-5.53,-1.04
+Aryavart Bank,Regional Rural Banks,2019,RRB,FY2024,12542.62,9645.27,514.09,118.64,5.33,1.23,76.9,0.91,9.64,91.31,76.92,Moderate Risk,8.29,21.92,0.15
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2018,29299.27,22531.14,1338.35,389.79,5.94,1.73,76.9,-0.38,-4.4,-89.07,70.88,Moderate Risk,0.0,0.0,0.0
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2019,33273.67,24023.59,1354.93,410.8,5.64,1.71,72.2,-0.21,-2.13,-55.9,69.68,Moderate Risk,13.56,6.62,-0.3
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2020,35777.4,28550.37,1336.16,422.55,4.68,1.48,79.8,0.42,4.52,120.21,68.38,Moderate Risk,7.52,18.84,-0.96
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2021,39480.54,27557.42,1207.01,297.62,4.38,1.08,69.8,0.62,7.59,195.82,75.34,Moderate Risk,10.35,-3.48,-0.3
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2022,41719.21,29870.95,994.7,334.55,3.33,1.12,71.6,0.83,10.72,277.02,66.37,Moderate Risk,5.67,8.4,-1.05
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2023,44701.95,31961.89,1204.96,357.97,3.77,1.12,71.5,0.92,11.25,329.01,70.29,Moderate Risk,7.15,7.0,0.44
+Axis Bank Ltd.,Private Sector Banks,1993,Private,FY2024,47202.58,35449.14,641.63,184.34,1.81,0.52,75.1,1.25,15.28,472.03,71.27,Prime / Low Risk,5.59,10.91,-1.96
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2018,29825.4,21891.84,1271.92,380.92,5.81,1.74,73.4,-0.21,-2.49,-50.11,70.05,Moderate Risk,0.0,0.0,0.0
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2019,32366.52,23983.59,1251.94,290.2,5.22,1.21,74.1,-0.2,-1.9,-51.79,76.82,Moderate Risk,8.52,9.55,-0.59
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2020,35879.36,26945.4,1331.1,347.6,4.94,1.29,75.1,0.22,2.44,63.15,73.89,Moderate Risk,10.85,12.35,-0.28
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2021,38519.22,29043.49,1161.74,368.85,4.0,1.27,75.4,0.56,6.14,172.57,68.25,Moderate Risk,7.36,7.79,-0.94
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2022,41792.64,31177.31,901.02,261.89,2.89,0.84,74.6,0.21,2.39,70.21,70.93,Prime / Low Risk,8.5,7.35,-1.11
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2023,44904.29,30669.63,1082.64,322.03,3.53,1.05,68.3,1.0,11.11,359.23,70.26,Moderate Risk,7.45,-1.63,0.64
+Bandhan Bank Ltd.,Private Sector Banks,2015,Private,FY2024,46665.87,34112.75,1006.33,310.43,2.95,0.91,73.1,0.99,11.91,369.59,69.15,Prime / Low Risk,3.92,11.23,-0.58
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2018,83020.25,57366.99,6826.67,1531.7,11.9,2.67,69.1,-0.64,-7.18,-425.06,77.56,Elevated Watch / High Risk,0.0,0.0,0.0
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2019,90195.63,61693.81,7082.45,2430.74,11.48,3.94,68.4,-0.07,-0.89,-50.51,65.68,Elevated Watch / High Risk,8.64,7.54,-0.42
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2020,97580.08,80698.73,7480.77,1952.91,9.27,2.42,82.7,0.15,1.73,117.1,73.89,Elevated Watch / High Risk,8.19,30.81,-2.21
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2021,105550.74,72091.16,5478.93,1535.54,7.6,2.13,68.3,0.3,3.63,253.32,71.97,Elevated Watch / High Risk,8.17,-10.67,-1.67
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2022,114401.18,93236.96,6703.74,1790.15,7.19,1.92,81.5,0.79,9.73,723.02,73.3,Elevated Watch / High Risk,8.39,29.33,-0.41
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2023,121956.61,86467.24,4591.41,1089.49,5.31,1.26,70.9,0.79,7.6,770.77,76.27,Moderate Risk,6.6,-7.26,-1.88
+Bank Of Baroda,Public Sector Banks,1908,Public,FY2024,130116.01,89910.16,3614.39,1141.86,4.02,1.27,69.1,1.14,10.55,1186.66,68.41,Moderate Risk,6.69,3.98,-1.29
+Bank Of India,Public Sector Banks,1906,Public,FY2018,42031.12,30682.72,3872.16,1322.43,12.62,4.31,73.0,0.02,0.23,6.72,65.85,Elevated Watch / High Risk,0.0,0.0,0.0
+Bank Of India,Public Sector Banks,1906,Public,FY2019,45418.01,36288.99,3962.76,1349.95,10.92,3.72,79.9,-0.33,-3.29,-119.9,65.93,Elevated Watch / High Risk,8.06,18.27,-1.7
+Bank Of India,Public Sector Banks,1906,Public,FY2020,49801.96,36903.25,3491.05,1059.12,9.46,2.87,74.1,-0.05,-0.61,-19.92,69.66,Elevated Watch / High Risk,9.65,1.69,-1.46
+Bank Of India,Public Sector Banks,1906,Public,FY2021,54104.69,38738.96,3207.59,1049.83,8.28,2.71,71.6,0.41,4.78,177.46,67.27,Elevated Watch / High Risk,8.64,4.97,-1.18
+Bank Of India,Public Sector Banks,1906,Public,FY2022,59243.24,48046.27,3113.4,956.12,6.48,1.99,81.1,0.57,6.85,270.15,69.29,Elevated Watch / High Risk,9.5,24.03,-1.8
+Bank Of India,Public Sector Banks,1906,Public,FY2023,61550.02,45670.11,2630.6,671.35,5.76,1.47,74.2,0.97,11.17,477.63,74.48,Moderate Risk,3.89,-4.95,-0.72
+Bank Of India,Public Sector Banks,1906,Public,FY2024,65747.93,48061.74,2028.21,543.1,4.22,1.13,73.1,1.09,12.75,573.32,73.22,Moderate Risk,6.82,5.24,-1.54
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2018,40733.0,33971.32,4117.32,1287.51,12.12,3.79,83.4,-0.12,-1.49,-39.1,68.73,Elevated Watch / High Risk,0.0,0.0,0.0
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2019,45981.33,32416.84,3549.64,910.91,10.95,2.81,70.5,0.05,0.62,18.39,74.34,Elevated Watch / High Risk,12.88,-4.58,-1.17
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2020,50245.36,36729.36,3562.75,1156.97,9.7,3.15,73.1,0.05,0.62,20.1,67.53,Elevated Watch / High Risk,9.27,13.3,-1.25
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2021,54024.76,38303.55,3481.79,1083.99,9.09,2.83,70.9,0.24,2.96,103.73,68.87,Elevated Watch / High Risk,7.52,4.29,-0.61
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2022,57045.3,47290.55,3211.03,1087.68,6.79,2.3,82.9,0.33,9.87,365.09,66.13,Elevated Watch / High Risk,5.59,23.46,-2.3
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2023,62333.69,47685.27,2818.2,910.79,5.91,1.91,76.5,0.92,9.04,458.78,67.68,Moderate Risk,9.27,0.83,-0.88
+Bank Of Maharashtra,Public Sector Banks,1935,Public,FY2024,66349.88,50824.01,2068.54,675.96,4.07,1.33,76.6,0.95,10.32,504.26,67.32,Moderate Risk,6.44,6.58,-1.84
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2018,17598.6,14131.68,515.81,156.86,3.65,1.11,80.3,-0.26,-2.59,-36.61,69.59,Moderate Risk,0.0,0.0,0.0
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2019,19121.46,14360.22,481.07,156.53,3.35,1.09,75.1,-0.04,-0.49,-6.12,67.46,Moderate Risk,8.65,1.62,-0.3
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2020,21488.54,16932.97,492.75,171.02,2.91,1.01,78.8,0.44,4.67,75.64,65.29,Prime / Low Risk,12.38,17.92,-0.44
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2021,22831.11,16963.51,403.73,118.74,2.38,0.7,74.3,0.45,4.61,82.19,70.59,Prime / Low Risk,6.25,0.18,-0.53
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2022,24576.32,19316.99,550.53,171.92,2.85,0.89,78.6,0.88,9.82,173.02,68.77,Prime / Low Risk,7.64,13.87,0.47
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2023,26071.57,19423.32,316.6,85.46,1.63,0.44,74.5,1.25,12.45,260.72,73.01,Prime / Low Risk,6.08,0.55,-1.22
+Barclays Bank Plc,Foreign Banks,1990,Foreign,FY2024,28064.94,20739.99,427.24,124.44,2.06,0.6,73.9,1.21,13.38,271.67,70.87,Prime / Low Risk,7.65,6.78,0.43
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2018,7441.12,5670.13,518.25,172.94,9.14,3.05,76.2,-0.5,-5.97,-29.76,66.63,Elevated Watch / High Risk,0.0,0.0,0.0
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2019,7529.16,6286.85,527.47,149.63,8.39,2.38,83.5,-0.13,-1.33,-7.83,71.63,Elevated Watch / High Risk,1.18,10.88,-0.75
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2020,9374.49,7837.07,587.78,144.99,7.5,1.85,83.6,0.03,0.29,2.25,75.33,Elevated Watch / High Risk,24.51,24.66,-0.89
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2021,10072.43,7181.64,463.93,140.76,6.46,1.96,71.3,0.49,6.36,39.48,69.66,Elevated Watch / High Risk,7.45,-8.36,-1.04
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2022,10186.85,8343.03,483.06,153.51,5.79,1.84,81.9,0.85,10.16,69.27,68.22,Moderate Risk,1.14,16.17,-0.67
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2023,10869.5,7945.6,471.17,143.02,5.93,1.8,73.1,0.91,9.18,79.13,69.65,Moderate Risk,6.7,-4.76,0.14
+Baroda UP Bank,Regional Rural Banks,2020,RRB,FY2024,10719.5,7707.32,316.77,99.42,4.11,1.29,71.9,0.98,9.34,84.04,68.61,Moderate Risk,-1.38,-3.0,-1.82
+Canara Bank,Public Sector Banks,1906,Public,FY2018,41308.45,31394.42,3946.28,1309.15,12.57,4.17,76.0,0.02,0.19,6.61,66.83,Elevated Watch / High Risk,0.0,0.0,0.0
+Canara Bank,Public Sector Banks,1906,Public,FY2019,45645.07,36379.12,4070.82,974.96,11.19,2.68,79.7,-0.2,-2.42,-73.03,76.05,Elevated Watch / High Risk,10.5,15.88,-1.38
+Canara Bank,Public Sector Banks,1906,Public,FY2020,50169.17,36272.31,3482.14,827.01,9.6,2.28,72.3,0.45,4.65,180.61,76.25,Elevated Watch / High Risk,9.91,-0.29,-1.59
+Canara Bank,Public Sector Banks,1906,Public,FY2021,53314.13,38172.92,2778.99,954.32,7.28,2.5,71.6,0.33,3.17,140.75,65.66,Elevated Watch / High Risk,6.27,5.24,-2.32
+Canara Bank,Public Sector Banks,1906,Public,FY2022,57872.6,42015.51,2848.65,785.69,6.78,1.87,72.6,0.46,5.48,212.97,72.42,Elevated Watch / High Risk,8.55,10.07,-0.5
+Canara Bank,Public Sector Banks,1906,Public,FY2023,62453.22,51773.72,2888.97,802.49,5.58,1.55,82.9,1.01,12.39,504.62,72.22,Moderate Risk,7.92,23.23,-1.2
+Canara Bank,Public Sector Banks,1906,Public,FY2024,66283.88,50773.45,1832.92,629.59,3.61,1.24,76.6,1.25,13.15,662.84,65.65,Moderate Risk,6.13,-1.93,-1.97
+Central Bank Of India,Public Sector Banks,1911,Public,FY2018,42534.47,30327.08,3887.93,1125.13,12.82,3.71,71.3,-0.35,-4.21,-119.1,71.06,Elevated Watch / High Risk,0.0,0.0,0.0
+Central Bank Of India,Public Sector Banks,1911,Public,FY2019,45723.75,36030.32,3909.29,1282.68,10.85,3.56,78.8,0.12,1.33,43.89,67.19,Elevated Watch / High Risk,7.5,18.81,-1.97
+Central Bank Of India,Public Sector Banks,1911,Public,FY2020,49156.19,34655.11,3333.82,797.07,9.62,2.3,70.5,0.38,3.49,149.43,76.09,Elevated Watch / High Risk,7.51,-3.82,-1.23
+Central Bank Of India,Public Sector Banks,1911,Public,FY2021,53816.21,39447.28,3435.86,1069.02,8.71,2.71,73.3,0.45,4.64,193.74,68.89,Elevated Watch / High Risk,9.48,13.83,-0.91
+Central Bank Of India,Public Sector Banks,1911,Public,FY2022,57392.67,39715.73,2760.24,857.86,6.95,2.16,69.2,0.59,6.58,270.89,68.92,Elevated Watch / High Risk,6.65,0.68,-1.76
+Central Bank Of India,Public Sector Banks,1911,Public,FY2023,61904.04,49708.94,2838.38,949.44,5.71,1.91,80.3,0.93,11.54,460.57,66.55,Moderate Risk,7.86,25.16,-1.24
+Central Bank Of India,Public Sector Banks,1911,Public,FY2024,65823.29,52000.4,1950.01,676.01,3.75,1.3,79.0,1.27,15.08,668.76,65.33,Moderate Risk,6.33,4.61,-1.96
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2018,17490.93,13642.93,527.98,140.52,3.87,1.03,78.0,-0.23,-2.08,-32.18,73.39,Moderate Risk,0.0,0.0,0.0
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2019,19454.92,16167.04,575.55,176.22,3.56,1.09,83.1,-0.09,-0.88,-14.01,69.38,Moderate Risk,11.23,18.5,-0.31
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2020,21130.07,16904.06,562.91,140.3,3.33,0.83,80.0,0.38,4.02,64.24,75.08,Moderate Risk,8.61,4.56,-0.23
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2021,23265.56,19170.82,452.43,103.52,2.36,0.54,82.4,0.0,0.0,0.0,77.12,Prime / Low Risk,10.11,13.41,-0.97
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2022,25146.59,17124.83,400.72,102.75,2.34,0.6,68.1,0.53,6.88,106.62,74.36,Prime / Low Risk,8.09,-10.67,-0.02
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2023,27343.16,20917.52,614.98,204.99,2.94,0.98,76.5,0.7,7.09,153.12,66.67,Prime / Low Risk,8.74,22.15,0.6
+Citibank N.A.,Foreign Banks,1902,Foreign,FY2024,27799.14,23073.29,346.1,108.44,1.5,0.47,83.0,1.11,10.54,246.86,68.67,Prime / Low Risk,1.67,10.31,-1.44
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2018,29408.38,20232.97,1252.42,305.52,6.19,1.51,68.8,-0.23,-2.36,-54.11,75.61,Elevated Watch / High Risk,0.0,0.0,0.0
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2019,32495.64,26223.98,1295.46,382.87,4.94,1.46,80.7,-0.37,-3.98,-96.19,70.45,Moderate Risk,10.5,29.61,-1.25
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2020,35663.93,26890.6,1118.65,247.39,4.16,0.92,75.4,0.04,0.42,11.41,77.88,Moderate Risk,9.75,2.54,-0.78
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2021,38854.96,26460.23,1098.1,248.73,4.15,0.94,68.1,0.43,3.9,133.66,77.35,Moderate Risk,8.95,-1.6,-0.01
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2022,41222.68,34091.16,1353.42,357.96,3.97,1.05,82.7,0.41,3.9,135.21,73.55,Moderate Risk,6.09,28.84,-0.18
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2023,44329.78,30277.24,971.9,257.36,3.21,0.85,68.3,1.41,16.31,500.04,73.52,Moderate Risk,7.54,-11.19,-0.76
+City Union Bank Ltd.,Private Sector Banks,1904,Private,FY2024,47978.06,36751.19,823.23,242.56,2.24,0.66,76.6,1.09,14.0,418.37,70.54,Prime / Low Risk,8.23,21.38,-0.97
+DBS Bank India,Foreign Banks,1994,Foreign,FY2018,17690.98,12136.01,441.75,138.35,3.64,1.14,68.6,-0.51,-5.79,-72.18,68.68,Moderate Risk,0.0,0.0,0.0
+DBS Bank India,Foreign Banks,1994,Foreign,FY2019,20031.07,14943.18,496.11,116.56,3.32,0.78,74.6,0.02,0.2,3.2,76.51,Moderate Risk,13.23,23.13,-0.32
+DBS Bank India,Foreign Banks,1994,Foreign,FY2020,21671.64,14910.09,492.03,129.72,3.3,0.87,68.8,0.07,0.75,12.14,73.64,Moderate Risk,8.19,-0.22,-0.02
+DBS Bank India,Foreign Banks,1994,Foreign,FY2021,23994.07,17275.73,433.62,145.12,2.51,0.84,72.0,0.3,3.26,57.59,66.53,Prime / Low Risk,10.72,15.87,-0.79
+DBS Bank India,Foreign Banks,1994,Foreign,FY2022,24712.73,19152.37,335.17,111.08,1.75,0.58,77.5,0.69,8.11,136.41,66.86,Prime / Low Risk,3.0,10.86,-0.76
+DBS Bank India,Foreign Banks,1994,Foreign,FY2023,26178.77,21859.27,426.26,120.23,1.95,0.55,83.5,0.86,7.9,180.11,71.79,Prime / Low Risk,5.93,14.13,0.2
+DBS Bank India,Foreign Banks,1994,Foreign,FY2024,27833.38,22739.87,527.56,143.26,2.32,0.63,81.7,1.09,13.21,242.71,72.84,Prime / Low Risk,6.32,4.03,0.37
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2018,18446.71,12672.89,505.65,150.81,3.99,1.19,68.7,-0.4,-3.89,-59.03,70.18,Moderate Risk,0.0,0.0,0.0
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2019,20191.88,16153.5,552.45,137.3,3.42,0.85,80.0,-0.13,-1.44,-21.0,75.15,Moderate Risk,9.46,27.47,-0.57
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2020,22183.65,16238.43,518.01,128.28,3.19,0.79,73.2,-0.1,-1.24,-17.75,75.24,Moderate Risk,9.86,0.53,-0.23
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2021,23478.02,16387.66,601.43,139.3,3.67,0.85,69.8,0.43,4.56,80.76,76.84,Moderate Risk,5.83,0.92,0.48
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2022,25330.75,19985.96,495.65,159.89,2.48,0.8,78.9,0.59,6.12,119.56,67.74,Prime / Low Risk,7.89,21.96,-1.19
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2023,26077.25,21487.65,655.37,184.79,3.05,0.86,82.4,0.66,6.12,137.69,71.8,Moderate Risk,2.95,7.51,0.57
+Deutsche Bank Ag,Foreign Banks,1980,Foreign,FY2024,27871.83,21544.92,398.58,96.95,1.85,0.45,77.3,1.04,12.85,231.89,75.68,Prime / Low Risk,6.88,0.27,-1.2
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2018,30255.69,25233.25,1521.56,524.85,6.03,2.08,83.4,-0.31,-3.75,-75.03,65.51,Elevated Watch / High Risk,0.0,0.0,0.0
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2019,32817.98,27074.83,1391.65,427.78,5.14,1.58,82.5,-0.37,-3.59,-97.14,69.26,Moderate Risk,8.47,7.3,-0.89
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2020,36021.29,30113.8,1385.23,373.41,4.6,1.24,83.6,0.26,2.89,74.92,73.04,Moderate Risk,9.76,11.22,-0.54
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2021,38049.63,28232.83,1352.35,330.32,4.79,1.17,74.2,0.41,3.95,124.8,75.57,Moderate Risk,5.63,-6.25,0.19
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2022,41408.74,34162.21,1055.61,351.87,3.09,1.03,82.5,0.8,7.84,265.02,66.67,Moderate Risk,8.83,21.0,-1.7
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2023,43722.66,35896.3,915.36,305.12,2.55,0.85,82.1,0.94,11.25,328.79,66.67,Prime / Low Risk,5.59,5.08,-0.54
+Federal Bank Ltd.,Private Sector Banks,1931,Private,FY2024,46666.53,32619.9,766.57,241.39,2.35,0.74,69.9,1.45,13.39,541.33,68.51,Prime / Low Risk,6.73,-9.13,-0.2
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2018,82593.32,61779.8,3607.94,920.52,5.84,1.49,74.8,-0.34,-3.82,-224.65,74.49,Moderate Risk,0.0,0.0,0.0
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2019,90238.09,69934.52,3363.85,846.21,4.81,1.21,77.5,0.08,1.03,57.75,74.84,Moderate Risk,9.26,13.2,-1.03
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2020,98274.58,68104.28,2969.35,939.84,4.36,1.38,69.3,0.56,5.34,440.27,68.35,Moderate Risk,8.91,-2.62,-0.45
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2021,106050.59,72750.7,2822.73,887.56,3.88,1.22,68.6,0.59,6.0,500.56,68.56,Moderate Risk,7.91,6.82,-0.48
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2022,113471.43,89415.49,2914.94,983.57,3.26,1.1,78.8,0.64,6.39,580.97,66.26,Moderate Risk,7.0,22.91,-0.62
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2023,122572.49,86291.03,2597.36,664.44,3.01,0.77,70.4,0.83,9.69,813.88,74.42,Moderate Risk,8.02,-3.49,-0.25
+HDFC Bank Ltd.,Private Sector Banks,1994,Private,FY2024,129576.82,101329.07,1519.94,405.32,1.5,0.4,78.2,1.06,9.93,1098.81,73.33,Prime / Low Risk,5.71,17.43,-1.51
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2018,18892.5,14169.38,494.51,162.95,3.49,1.15,75.0,-0.24,-2.16,-36.27,67.05,Moderate Risk,0.0,0.0,0.0
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2019,19239.93,16007.62,544.26,156.87,3.4,0.98,83.2,-0.08,-0.75,-12.31,71.18,Moderate Risk,1.84,12.97,-0.09
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2020,21089.54,16766.18,472.81,139.16,2.82,0.83,79.5,-0.02,-0.21,-3.37,70.57,Prime / Low Risk,9.61,4.74,-0.58
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2021,23571.54,16311.51,487.71,153.33,2.99,0.94,69.2,0.53,6.51,99.94,68.56,Prime / Low Risk,11.77,-2.71,0.17
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2022,25322.95,19878.52,554.61,145.11,2.79,0.73,78.5,1.04,12.47,210.69,73.84,Prime / Low Risk,7.43,21.87,-0.2
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2023,26350.62,18419.08,373.91,114.2,2.03,0.62,69.9,0.87,8.8,183.4,69.46,Prime / Low Risk,4.06,-7.34,-0.76
+HSBC Ltd.,Foreign Banks,1853,Foreign,FY2024,28132.11,19748.74,296.23,102.69,1.5,0.52,70.2,0.43,12.37,245.31,65.33,Prime / Low Risk,6.76,7.22,-0.53
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2018,82495.31,68966.08,3703.48,903.46,5.37,1.31,83.6,-0.52,-6.2,-343.18,75.61,Moderate Risk,0.0,0.0,0.0
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2019,89784.66,67158.93,3216.91,1067.83,4.79,1.59,74.8,-0.11,-1.37,-79.01,66.81,Moderate Risk,8.84,-2.62,-0.58
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2020,98629.85,78805.25,3790.53,922.02,4.81,1.17,79.9,0.41,4.78,323.51,75.68,Moderate Risk,9.85,17.34,0.02
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2021,105475.73,84591.54,3806.62,998.18,4.5,1.18,80.2,0.37,3.4,312.21,73.78,Moderate Risk,6.94,7.34,-0.31
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2022,113374.26,91039.53,3204.59,974.12,3.52,1.07,80.3,0.51,5.31,462.57,69.6,Moderate Risk,7.49,7.62,-0.98
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2023,121712.43,84955.28,2557.15,815.57,3.01,0.96,69.8,1.18,12.86,1148.97,68.11,Moderate Risk,7.35,-6.68,-0.51
+ICICI Bank Ltd.,Private Sector Banks,1994,Private,FY2024,128949.02,105867.15,2869.0,741.07,2.71,0.7,82.1,0.94,9.43,969.7,74.17,Prime / Low Risk,5.95,24.62,-0.3
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2018,29631.97,22579.56,1275.75,401.92,5.65,1.78,76.2,-0.41,-3.76,-97.19,68.5,Moderate Risk,0.0,0.0,0.0
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2019,32460.77,23241.91,1336.41,341.66,5.75,1.47,71.6,-0.05,-0.47,-12.98,74.43,Moderate Risk,9.55,2.93,0.1
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2020,35817.7,27364.72,1412.02,322.9,5.16,1.18,76.4,0.42,5.08,120.35,77.13,Moderate Risk,10.34,17.74,-0.59
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2021,39023.3,31647.9,1623.54,433.58,5.13,1.37,81.1,0.48,4.49,149.85,73.29,Moderate Risk,8.95,15.65,-0.03
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2022,41323.1,31116.29,1085.96,248.93,3.49,0.8,75.3,0.96,9.34,317.36,77.08,Moderate Risk,5.89,-1.68,-1.64
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2023,44374.86,32038.65,932.32,224.27,2.91,0.7,72.2,0.91,11.26,323.05,75.94,Prime / Low Risk,7.39,2.96,-0.58
+IDFC FIRST Bank Ltd.,Private Sector Banks,2015,Private,FY2024,47573.57,35204.44,932.92,225.31,2.65,0.64,74.0,1.08,11.31,411.04,75.85,Prime / Low Risk,7.21,9.88,-0.26
+Indian Bank,Public Sector Banks,1907,Public,FY2018,42179.32,30706.54,3703.21,1151.5,12.06,3.75,72.8,-0.08,-0.81,-26.99,68.91,Elevated Watch / High Risk,0.0,0.0,0.0
+Indian Bank,Public Sector Banks,1907,Public,FY2019,45823.32,33863.43,3863.82,1212.31,11.41,3.58,73.9,0.22,2.66,80.65,68.62,Elevated Watch / High Risk,8.64,10.28,-0.65
+Indian Bank,Public Sector Banks,1907,Public,FY2020,50058.78,35541.73,3550.62,1140.89,9.99,3.21,71.0,0.03,0.29,12.01,67.87,Elevated Watch / High Risk,9.24,4.96,-1.42
+Indian Bank,Public Sector Banks,1907,Public,FY2021,54290.63,41803.79,3335.94,765.01,7.98,1.83,77.0,0.75,6.91,325.74,77.07,Elevated Watch / High Risk,8.45,17.62,-2.01
+Indian Bank,Public Sector Banks,1907,Public,FY2022,56980.36,46666.91,3304.02,1129.34,7.08,2.42,81.9,0.71,7.5,323.65,65.82,Elevated Watch / High Risk,4.95,11.63,-0.9
+Indian Bank,Public Sector Banks,1907,Public,FY2023,60996.84,42636.79,2208.59,613.97,5.18,1.44,69.9,1.02,9.33,497.73,72.2,Moderate Risk,7.05,-8.64,-1.9
+Indian Bank,Public Sector Banks,1907,Public,FY2024,66849.77,46126.34,1738.96,604.26,3.77,1.31,69.0,1.33,16.73,711.28,65.25,Moderate Risk,9.6,8.18,-1.41
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2018,42297.51,32315.3,4120.2,1027.63,12.75,3.18,76.4,0.08,0.96,27.07,75.06,Elevated Watch / High Risk,0.0,0.0,0.0
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2019,45979.34,33518.94,3593.23,844.68,10.72,2.52,72.9,-0.2,-2.33,-73.57,76.49,Elevated Watch / High Risk,8.7,3.72,-2.03
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2020,50631.15,39289.77,3610.73,884.02,9.19,2.25,77.6,0.22,2.78,89.11,75.52,Elevated Watch / High Risk,10.12,17.22,-1.53
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2021,55163.03,41813.58,3253.1,978.44,7.78,2.34,75.8,0.34,3.9,150.04,69.92,Elevated Watch / High Risk,8.95,6.42,-1.41
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2022,57906.94,42445.79,2771.71,738.56,6.53,1.74,73.3,0.33,3.12,152.87,73.35,Elevated Watch / High Risk,4.97,1.51,-1.25
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2023,61897.01,43327.91,2703.66,901.22,6.24,2.08,70.0,0.33,6.61,321.86,66.67,Elevated Watch / High Risk,6.89,2.08,-0.29
+Indian Overseas Bank,Public Sector Banks,1937,Public,FY2024,65915.82,50755.18,2014.98,487.25,3.97,0.96,77.0,1.37,15.83,722.44,75.82,Moderate Risk,6.49,17.14,-2.27
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2018,30005.17,24094.15,1274.58,421.65,5.29,1.75,80.3,-0.34,-3.77,-81.61,66.92,Moderate Risk,0.0,0.0,0.0
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2019,32352.87,25914.65,1389.03,321.34,5.36,1.24,80.1,-0.32,-3.53,-82.82,76.87,Moderate Risk,7.82,7.56,0.07
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2020,34986.62,27989.3,1281.91,307.88,4.58,1.1,80.0,0.12,1.52,33.59,75.98,Moderate Risk,8.14,8.01,-0.78
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2021,38597.34,30144.52,1284.16,370.78,4.26,1.23,78.1,0.64,7.4,197.62,71.13,Moderate Risk,10.32,7.7,-0.32
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2022,41672.97,28504.31,1011.9,347.75,3.55,1.22,68.4,0.44,4.78,146.69,65.63,Moderate Risk,7.97,-5.44,-0.71
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2023,44198.91,36022.11,1210.34,313.39,3.36,0.87,81.5,0.82,8.3,289.94,74.11,Moderate Risk,6.06,26.37,-0.19
+Indusind Bank Ltd.,Private Sector Banks,1994,Private,FY2024,47648.29,38976.3,927.64,280.63,2.38,0.72,81.8,1.01,9.57,385.0,69.75,Prime / Low Risk,7.8,8.2,-0.98
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2018,7856.35,6292.94,624.89,159.21,9.93,2.53,80.1,-0.32,-3.17,-20.11,74.52,Elevated Watch / High Risk,0.0,0.0,0.0
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2019,8222.97,6068.55,509.76,123.8,8.4,2.04,73.8,0.1,1.15,6.58,75.71,Elevated Watch / High Risk,4.67,-3.57,-1.53
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2020,8907.67,7028.15,565.77,127.91,8.05,1.82,78.9,-0.04,-0.42,-2.85,77.39,Elevated Watch / High Risk,8.33,15.81,-0.35
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2021,9612.57,6805.7,509.75,140.2,7.49,2.06,70.8,0.51,4.76,39.22,72.5,Elevated Watch / High Risk,7.91,-3.17,-0.56
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2022,11090.94,7608.38,461.07,105.0,6.06,1.38,68.6,0.89,9.27,78.97,77.23,Elevated Watch / High Risk,15.38,11.79,-1.43
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2023,12342.76,10244.49,551.15,182.35,5.38,1.78,83.0,1.04,12.4,102.69,66.91,Moderate Risk,11.29,34.65,-0.68
+Karnataka Gramin Bank,Regional Rural Banks,2019,RRB,FY2024,12489.5,9591.94,412.45,124.7,4.3,1.3,76.8,0.96,10.2,95.92,69.77,Moderate Risk,1.19,-6.37,-1.08
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2018,29620.14,23814.59,1293.13,359.6,5.43,1.51,80.4,-0.35,-4.13,-82.94,72.19,Moderate Risk,0.0,0.0,0.0
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2019,32119.34,26402.1,1441.55,327.39,5.46,1.24,82.2,-0.49,-5.59,-125.91,77.29,Moderate Risk,8.44,10.87,0.03
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2020,35505.13,29043.2,1312.75,354.33,4.52,1.22,81.8,0.09,1.07,25.56,73.01,Moderate Risk,10.54,10.0,-0.94
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2021,38914.13,28057.09,1111.06,288.99,3.96,1.03,72.1,0.2,2.02,62.26,73.99,Moderate Risk,9.6,-3.4,-0.56
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2022,41864.16,29974.74,1148.03,395.67,3.83,1.32,71.6,0.76,6.97,254.53,65.53,Moderate Risk,7.58,6.83,-0.13
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2023,44756.64,34954.94,1041.66,356.54,2.98,1.02,78.1,0.73,8.48,261.38,65.77,Prime / Low Risk,6.91,16.61,-0.85
+Karur Vysya Bank,Private Sector Banks,1916,Private,FY2024,47151.38,32345.85,857.17,239.36,2.65,0.74,68.6,1.31,16.32,494.15,72.08,Prime / Low Risk,5.35,-7.46,-0.33
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2018,6624.83,4710.25,437.11,151.67,9.28,3.22,71.1,-0.29,-3.16,-15.37,65.3,Elevated Watch / High Risk,0.0,0.0,0.0
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2019,7356.56,5480.64,486.68,116.74,8.88,2.13,74.5,-0.03,-0.32,-1.77,76.01,Elevated Watch / High Risk,11.05,16.36,-0.4
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2020,8556.9,6503.24,449.37,104.05,6.91,1.6,76.0,0.16,1.56,10.95,76.85,Elevated Watch / High Risk,16.32,18.66,-1.97
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2021,8857.97,6041.14,402.34,108.74,6.66,1.8,68.2,0.45,4.08,31.89,72.97,Elevated Watch / High Risk,3.52,-7.11,-0.25
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2022,9489.44,7895.21,463.45,126.32,5.87,1.6,83.2,0.35,4.31,26.57,72.74,Moderate Risk,7.13,30.69,-0.79
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2023,10999.95,8689.96,477.08,162.5,5.49,1.87,79.0,0.8,9.16,70.4,65.94,Moderate Risk,15.92,10.07,-0.38
+Kerala Gramin Bank,Regional Rural Banks,2013,RRB,FY2024,10983.04,7765.01,375.83,114.92,4.84,1.48,70.7,1.11,13.4,97.53,69.42,Moderate Risk,-0.15,-10.64,-0.65
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2018,29873.56,22225.93,1400.23,444.52,6.3,2.0,74.4,-0.14,-1.3,-33.46,68.25,Elevated Watch / High Risk,0.0,0.0,0.0
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2019,31806.38,21819.18,1165.14,268.38,5.34,1.23,68.6,0.18,1.7,45.8,76.97,Moderate Risk,6.47,-1.83,-0.96
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2020,35500.33,25347.24,1196.39,347.26,4.72,1.37,71.4,-0.11,-0.99,-31.24,70.97,Moderate Risk,11.61,16.17,-0.62
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2021,38816.0,31285.7,1342.16,425.49,4.29,1.36,80.6,0.39,4.0,121.11,68.3,Moderate Risk,9.34,23.43,-0.43
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2022,41626.49,32135.65,1160.1,295.65,3.61,0.92,77.2,0.64,7.51,213.13,74.52,Moderate Risk,7.24,2.72,-0.68
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2023,44950.39,30925.87,906.13,213.39,2.93,0.69,68.8,0.84,10.17,302.07,76.45,Prime / Low Risk,7.99,-3.76,-0.68
+Kotak Mahindra Bank Ltd.,Private Sector Banks,2003,Private,FY2024,47684.45,38672.09,796.65,189.49,2.06,0.49,81.1,1.17,10.71,446.33,76.21,Prime / Low Risk,6.08,25.05,-0.87
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2018,7043.22,5909.26,524.74,120.55,8.88,2.04,83.9,-0.23,-2.52,-12.96,77.03,Elevated Watch / High Risk,0.0,0.0,0.0
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2019,7687.65,6419.19,523.81,129.03,8.16,2.01,83.5,0.09,1.01,5.54,75.37,Elevated Watch / High Risk,9.15,8.63,-0.72
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2020,8134.03,6067.99,469.06,125.61,7.73,2.07,74.6,0.24,2.24,15.62,73.22,Elevated Watch / High Risk,5.81,-5.47,-0.43
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2021,9617.87,7559.65,527.66,170.85,6.98,2.26,78.6,0.59,5.67,45.4,67.62,Elevated Watch / High Risk,18.24,24.58,-0.75
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2022,10697.23,7734.1,433.88,128.39,5.61,1.66,72.3,0.41,5.03,35.09,70.41,Moderate Risk,11.22,2.31,-1.37
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2023,11605.57,8982.71,495.85,171.57,5.52,1.91,77.4,0.89,11.32,82.63,65.4,Moderate Risk,8.49,16.14,-0.09
+Maharashtra Gramin Bank,Regional Rural Banks,2008,RRB,FY2024,11920.62,8189.47,352.97,83.53,4.31,1.02,68.7,0.38,10.86,85.83,76.34,Moderate Risk,2.71,-8.83,-1.21
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2018,8253.87,5711.68,546.04,139.36,9.56,2.44,69.2,-0.32,-3.92,-21.13,74.48,Elevated Watch / High Risk,0.0,0.0,0.0
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2019,9327.96,7611.62,621.11,149.19,8.16,1.96,81.6,0.38,-1.62,-9.7,75.98,Elevated Watch / High Risk,13.01,33.26,-1.4
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2020,8239.05,6904.32,541.99,187.8,7.85,2.72,83.8,0.19,2.02,12.52,65.35,Elevated Watch / High Risk,-11.67,-9.29,-0.31
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2021,9695.04,7843.29,534.91,181.18,6.82,2.31,80.9,0.34,4.03,26.37,66.13,Elevated Watch / High Risk,17.67,13.6,-1.03
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2022,9906.28,7033.46,443.81,128.01,6.31,1.82,71.0,0.62,7.0,49.14,71.16,Elevated Watch / High Risk,2.18,-10.33,-0.51
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2023,10444.6,8178.12,439.98,148.84,5.38,1.82,78.3,0.86,10.43,71.86,66.17,Moderate Risk,5.43,16.27,-0.93
+Prathama UP Gramin Bank,Regional Rural Banks,1975,RRB,FY2024,12142.91,9665.76,443.66,112.12,4.59,1.16,79.6,0.99,9.24,96.17,74.73,Moderate Risk,16.26,18.19,-0.79
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2018,42622.82,32947.44,4398.48,1021.37,13.35,3.1,77.3,-0.21,-2.34,-71.61,76.78,Elevated Watch / High Risk,0.0,0.0,0.0
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2019,45957.24,37133.45,4337.19,1013.74,11.68,2.73,80.8,0.1,1.15,36.77,76.63,Elevated Watch / High Risk,7.82,12.71,-1.67
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2020,50354.34,41844.46,3991.96,1108.88,9.54,2.65,83.1,0.1,1.3,40.28,72.22,Elevated Watch / High Risk,9.57,12.69,-2.14
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2021,54623.96,45283.26,3224.17,851.33,7.12,1.88,82.9,0.41,4.77,179.17,73.6,Elevated Watch / High Risk,8.48,8.22,-2.42
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2022,57492.86,46051.78,3283.49,999.32,7.13,2.17,80.1,0.75,9.29,344.96,69.57,Elevated Watch / High Risk,5.25,1.7,0.01
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2023,61056.1,43105.61,2349.26,659.52,5.45,1.53,70.6,0.92,8.55,449.37,71.93,Moderate Risk,6.2,-6.4,-1.68
+Punjab & Sind Bank,Public Sector Banks,1908,Public,FY2024,65620.28,47312.22,2214.21,534.63,4.68,1.13,72.1,1.35,12.8,708.7,75.85,Moderate Risk,7.48,9.76,-0.77
+Punjab National Bank,Public Sector Banks,1894,Public,FY2018,82303.72,59423.29,7154.56,2460.12,12.04,4.14,72.2,-0.09,-0.97,-59.26,65.61,Elevated Watch / High Risk,0.0,0.0,0.0
+Punjab National Bank,Public Sector Banks,1894,Public,FY2019,90342.83,63872.38,7000.41,1839.52,10.96,2.88,70.7,0.15,1.79,108.41,73.72,Elevated Watch / High Risk,9.77,7.49,-1.08
+Punjab National Bank,Public Sector Banks,1894,Public,FY2020,97508.16,70693.42,7302.63,2516.69,10.33,3.56,72.5,-0.12,-1.12,-93.61,65.54,Elevated Watch / High Risk,7.93,10.68,-0.63
+Punjab National Bank,Public Sector Banks,1894,Public,FY2021,105368.47,71861.3,5871.07,1358.18,8.17,1.89,68.2,0.26,2.66,219.17,76.87,Elevated Watch / High Risk,8.06,1.65,-2.16
+Punjab National Bank,Public Sector Banks,1894,Public,FY2022,112680.14,93186.48,6327.36,1481.67,6.79,1.59,82.7,0.44,4.47,396.63,76.58,Elevated Watch / High Risk,6.94,29.68,-1.38
+Punjab National Bank,Public Sector Banks,1894,Public,FY2023,122539.02,86757.63,4884.45,1440.18,5.63,1.66,70.8,0.71,8.09,696.02,70.52,Moderate Risk,8.75,-6.9,-1.16
+Punjab National Bank,Public Sector Banks,1894,Public,FY2024,130405.81,93109.75,3836.12,1135.94,4.12,1.22,71.4,1.19,12.68,1241.46,70.39,Moderate Risk,6.42,7.32,-1.51
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2018,29220.4,19928.31,1106.02,253.09,5.55,1.27,68.2,-0.33,-4.25,-77.14,77.12,Moderate Risk,0.0,0.0,0.0
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2019,33389.44,25042.08,1222.05,370.62,4.88,1.48,75.0,-0.26,-2.37,-69.45,69.67,Moderate Risk,14.27,25.66,-0.67
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2020,35697.52,27201.51,992.86,244.81,3.65,0.9,76.2,0.28,2.91,79.96,75.34,Moderate Risk,6.91,8.62,-1.23
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2021,39532.79,32337.82,1312.92,339.55,4.06,1.05,81.8,0.16,1.45,50.6,74.14,Moderate Risk,10.74,18.88,0.41
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2022,41506.52,28888.54,898.43,309.11,3.11,1.07,69.6,0.74,7.84,245.72,65.59,Moderate Risk,4.99,-10.67,-0.95
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2023,43927.15,31276.13,822.56,250.21,2.63,0.8,71.2,0.93,10.27,326.82,69.58,Prime / Low Risk,5.83,8.26,-0.48
+RBL Bank Ltd.,Private Sector Banks,1943,Private,FY2024,46961.66,37381.48,1042.94,340.17,2.79,0.91,79.6,1.09,11.61,409.51,67.38,Prime / Low Risk,6.91,19.52,0.16
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2018,17587.63,12592.74,449.56,142.3,3.57,1.13,71.6,-0.54,-5.6,-75.98,68.35,Moderate Risk,0.0,0.0,0.0
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2019,19639.55,14474.35,519.63,166.46,3.59,1.15,73.7,-0.06,-0.6,-9.43,67.97,Moderate Risk,11.67,14.94,0.02
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2020,21414.13,14925.65,526.88,123.88,3.53,0.83,69.7,0.33,3.77,56.53,76.49,Moderate Risk,9.04,3.12,-0.06
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2021,23509.0,17044.02,402.24,126.13,2.36,0.74,72.5,0.6,6.52,112.84,68.64,Prime / Low Risk,9.78,14.19,-1.17
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2022,25243.4,17367.46,413.35,121.57,2.38,0.7,68.8,0.43,9.01,179.73,70.59,Prime / Low Risk,7.38,1.9,0.02
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2023,27257.89,22651.31,339.77,95.14,1.5,0.42,83.1,0.99,9.48,215.88,72.0,Prime / Low Risk,7.98,30.42,-0.88
+Standard Chartered Bank,Foreign Banks,1858,Foreign,FY2024,27916.16,19513.4,419.54,132.69,2.15,0.68,69.9,0.43,13.56,243.43,68.37,Prime / Low Risk,2.41,-13.85,0.65
+State Bank Of India,Public Sector Banks,1955,Public,FY2018,180217.28,133721.22,15364.57,4038.38,11.49,3.02,74.2,-0.33,-3.4,-475.77,73.72,Elevated Watch / High Risk,0.0,0.0,0.0
+State Bank Of India,Public Sector Banks,1955,Public,FY2019,197948.18,144106.28,15549.07,5216.65,10.79,3.62,72.8,-0.26,-3.18,-411.73,66.45,Elevated Watch / High Risk,9.84,7.77,-0.7
+State Bank Of India,Public Sector Banks,1955,Public,FY2020,213954.84,145703.25,13885.52,4050.55,9.53,2.78,68.1,0.33,3.65,564.84,70.83,Elevated Watch / High Risk,8.09,1.11,-1.26
+State Bank Of India,Public Sector Banks,1955,Public,FY2021,231194.83,184955.86,14833.46,4069.03,8.02,2.2,80.0,0.31,4.0,573.36,72.57,Elevated Watch / High Risk,8.06,26.94,-1.51
+State Bank Of India,Public Sector Banks,1955,Public,FY2022,247571.8,205484.59,14466.12,3205.56,7.04,1.56,83.0,0.48,4.71,950.68,77.84,Elevated Watch / High Risk,7.08,11.1,-0.98
+State Bank Of India,Public Sector Banks,1955,Public,FY2023,265553.96,202883.23,9697.82,2576.62,4.78,1.27,76.4,1.02,13.17,2166.92,73.43,Moderate Risk,7.26,-1.27,-2.26
+State Bank Of India,Public Sector Banks,1955,Public,FY2024,283029.43,200384.84,8115.59,2404.62,4.05,1.2,70.8,1.32,16.23,2988.79,70.37,Moderate Risk,6.58,-1.23,-0.73
+Uco Bank,Public Sector Banks,1943,Public,FY2018,41155.38,29755.34,3570.64,883.73,12.0,2.97,72.3,-0.45,-5.81,-148.16,75.25,Elevated Watch / High Risk,0.0,0.0,0.0
+Uco Bank,Public Sector Banks,1943,Public,FY2019,45560.8,34489.53,3624.85,1269.21,10.51,3.68,75.7,-0.26,-2.62,-94.77,64.99,Elevated Watch / High Risk,10.7,15.91,-1.49
+Uco Bank,Public Sector Banks,1943,Public,FY2020,50313.22,38439.3,4086.1,1291.56,10.63,3.36,76.4,0.05,0.61,20.13,68.39,Elevated Watch / High Risk,10.43,11.45,0.12
+Uco Bank,Public Sector Banks,1943,Public,FY2021,53594.92,44698.16,3982.61,947.6,8.91,2.12,83.4,0.21,2.22,90.04,76.21,Elevated Watch / High Risk,6.52,16.28,-1.72
+Uco Bank,Public Sector Banks,1943,Public,FY2022,57889.32,39827.85,2365.77,553.61,5.94,1.39,68.8,0.36,4.23,166.72,76.6,Moderate Risk,8.01,-10.9,-2.97
+Uco Bank,Public Sector Banks,1943,Public,FY2023,61595.45,49707.53,2743.86,929.53,5.52,1.87,80.7,1.02,10.67,502.62,66.12,Moderate Risk,6.4,24.81,-0.42
+Uco Bank,Public Sector Banks,1943,Public,FY2024,65723.27,51132.7,2111.78,669.84,4.13,1.31,77.8,1.05,11.52,552.08,68.28,Moderate Risk,6.7,2.87,-1.39
+Union Bank Of India,Public Sector Banks,1919,Public,FY2018,42089.28,33629.33,4183.49,928.17,12.44,2.76,79.9,-0.66,-7.87,-222.23,77.81,Elevated Watch / High Risk,0.0,0.0,0.0
+Union Bank Of India,Public Sector Banks,1919,Public,FY2019,45404.3,31056.54,3236.09,1111.82,10.42,3.58,68.4,-0.14,-1.5,-50.85,65.64,Elevated Watch / High Risk,7.88,-7.65,-2.02
+Union Bank Of India,Public Sector Banks,1919,Public,FY2020,50049.41,41490.96,4169.84,1058.02,10.05,2.55,82.9,0.05,0.49,20.02,74.63,Elevated Watch / High Risk,10.23,33.6,-0.37
+Union Bank Of India,Public Sector Banks,1919,Public,FY2021,54014.78,43697.96,3648.78,812.78,8.35,1.86,80.9,0.33,4.25,142.6,77.72,Elevated Watch / High Risk,7.92,5.32,-1.7
+Union Bank Of India,Public Sector Banks,1919,Public,FY2022,58587.04,44233.22,3122.87,791.77,7.06,1.79,75.5,0.59,6.0,276.53,74.65,Elevated Watch / High Risk,8.46,1.22,-1.29
+Union Bank Of India,Public Sector Banks,1919,Public,FY2023,62282.68,42788.2,2588.69,646.1,6.05,1.51,68.7,0.92,10.17,458.4,75.04,Elevated Watch / High Risk,6.31,-3.27,-1.01
+Union Bank Of India,Public Sector Banks,1919,Public,FY2024,66344.57,47502.71,1790.85,532.03,3.77,1.12,71.6,1.21,13.36,642.22,70.29,Moderate Risk,6.52,11.02,-2.28
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2018,29959.89,20642.36,1056.89,355.05,5.12,1.72,68.9,-0.19,-2.43,-45.54,66.41,Moderate Risk,0.0,0.0,0.0
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2019,32800.92,26962.36,1321.16,374.78,4.9,1.39,82.2,-0.2,-2.08,-52.48,71.63,Moderate Risk,9.48,30.62,-0.22
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2020,35926.67,27340.2,1440.83,475.72,5.27,1.74,76.1,0.19,2.39,54.61,66.98,Moderate Risk,9.53,1.4,0.37
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2021,38992.45,29244.34,1117.13,295.37,3.82,1.01,75.0,0.36,4.17,112.3,73.56,Moderate Risk,8.53,6.96,-1.45
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2022,42192.46,32150.65,1253.88,276.5,3.9,0.86,76.2,0.83,9.75,280.16,77.95,Moderate Risk,8.21,9.94,0.08
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2023,44516.51,35435.14,1165.82,368.53,3.29,1.04,79.6,0.79,7.25,281.34,68.39,Moderate Risk,5.51,10.22,-0.61
+Yes Bank Ltd.,Private Sector Banks,2004,Private,FY2024,47379.55,39609.3,1014.0,289.15,2.56,0.73,83.6,1.09,14.12,413.15,71.48,Prime / Low Risk,6.43,11.78,-0.73

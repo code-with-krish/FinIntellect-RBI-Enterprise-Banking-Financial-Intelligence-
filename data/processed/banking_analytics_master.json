@@ -1,0 +1,975 @@
+{
+  "metadata": {
+    "source": "Reserve Bank of India (RBI) DBIE & BSR Releases",
+    "last_processed": "2026-09-21 21:38:42",
+    "total_records_processed": 138572,
+    "district_records": 137984,
+    "bank_records": 252,
+    "sector_records": 336
+  },
+  "kpis": {
+    "total_deposits_crore": 2108063.47,
+    "total_advances_crore": 1576137.14,
+    "gross_npa_crore": 51345.6,
+    "net_npa_crore": 15086.11,
+    "gnpa_ratio_pct": 3.26,
+    "cd_ratio_pct": 74.77,
+    "avg_roa_pct": 1.07,
+    "total_branches": 64532
+  },
+  "data_quality": {
+    "raw_missing_matrix": [
+      {
+        "column": "quarter",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "region",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "state_name",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "district_name",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "bank_group",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "population_group",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "branch_category",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "number_of_offices",
+        "missing_count": 1124,
+        "missing_pct": 0.81,
+        "data_type": "float64",
+        "completeness_pct": 99.19
+      },
+      {
+        "column": "total_deposits_crore",
+        "missing_count": 1404,
+        "missing_pct": 1.02,
+        "data_type": "object",
+        "completeness_pct": 98.98
+      },
+      {
+        "column": "total_credit_crore",
+        "missing_count": 2049,
+        "missing_pct": 1.48,
+        "data_type": "float64",
+        "completeness_pct": 98.52
+      },
+      {
+        "column": "reported_cd_ratio",
+        "missing_count": 6807,
+        "missing_pct": 4.93,
+        "data_type": "float64",
+        "completeness_pct": 95.07
+      }
+    ],
+    "cleaned_missing_matrix": [
+      {
+        "column": "quarter",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "region",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "state_name",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "district_name",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "bank_group",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "population_group",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "branch_category",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "number_of_offices",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "int64",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "total_deposits_crore",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "float64",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "total_credit_crore",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "float64",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "reported_cd_ratio",
+        "missing_count": 6807,
+        "missing_pct": 4.93,
+        "data_type": "float64",
+        "completeness_pct": 95.07
+      },
+      {
+        "column": "cd_ratio",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "float64",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "cd_ratio_category",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "object",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "deposits_per_branch_crore",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "float64",
+        "completeness_pct": 100.0
+      },
+      {
+        "column": "credit_per_branch_crore",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "data_type": "float64",
+        "completeness_pct": 100.0
+      }
+    ],
+    "cleaning_audit": {
+      "whitespace_trimmed_count": 9650,
+      "casing_standardized_count": 689920,
+      "numeric_strings_converted": 6883,
+      "missing_values_handled": 3469,
+      "negative_anomalies_rectified": 114,
+      "duplicates_removed": 0
+    },
+    "validation_summary": {
+      "completeness_score_pct": 99.8,
+      "consistency_score_pct": 99.91,
+      "district_audit": {
+        "dataset": "district_credit_deposit",
+        "total_rows": 137984,
+        "total_violations": 245,
+        "violations_detail": {
+          "extreme_cd_ratio_outliers": 245
+        },
+        "completeness_score_pct": 99.59,
+        "consistency_score_pct": 99.82
+      },
+      "bank_audit": {
+        "dataset": "bank_performance",
+        "total_rows": 252,
+        "total_violations": 0,
+        "violations_detail": {},
+        "completeness_score_pct": 100.0,
+        "consistency_score_pct": 100.0
+      }
+    },
+    "total_raw_rows": 137984,
+    "duplicates_removed": 0,
+    "whitespace_trimmed": 9650,
+    "numeric_converted": 6883,
+    "completeness_score": 99.8,
+    "consistency_score": 99.91
+  },
+  "trends": [
+    {
+      "fiscal_year": "FY2018",
+      "deposits": 1337484.96,
+      "advances": 1004267.98,
+      "gross_npa": 91436.81,
+      "net_npa": 25552.02,
+      "gnpa_ratio": 8.19,
+      "roa": -0.3
+    },
+    {
+      "fiscal_year": "FY2019",
+      "deposits": 1461711.98,
+      "advances": 1098926.07,
+      "gross_npa": 89957.44,
+      "net_npa": 26601.91,
+      "gnpa_ratio": 7.39,
+      "roa": -0.09
+    },
+    {
+      "fiscal_year": "FY2020",
+      "deposits": 1594439.73,
+      "advances": 1199151.04,
+      "gross_npa": 87666.87,
+      "net_npa": 24797.48,
+      "gnpa_ratio": 6.59,
+      "roa": 0.18
+    },
+    {
+      "fiscal_year": "FY2021",
+      "deposits": 1727995.92,
+      "advances": 1299187.8,
+      "gross_npa": 81514.58,
+      "net_npa": 22426.26,
+      "gnpa_ratio": 5.71,
+      "roa": 0.41
+    },
+    {
+      "fiscal_year": "FY2022",
+      "deposits": 1850774.84,
+      "advances": 1440542.88,
+      "gross_npa": 76817.15,
+      "net_npa": 21117.51,
+      "gnpa_ratio": 4.83,
+      "roa": 0.61
+    },
+    {
+      "fiscal_year": "FY2023",
+      "deposits": 1981911.21,
+      "advances": 1469926.52,
+      "gross_npa": 63924.0,
+      "net_npa": 18377.61,
+      "gnpa_ratio": 4.17,
+      "roa": 0.91
+    },
+    {
+      "fiscal_year": "FY2024",
+      "deposits": 2108063.47,
+      "advances": 1576137.14,
+      "gross_npa": 51345.6,
+      "net_npa": 15086.11,
+      "gnpa_ratio": 3.21,
+      "roa": 1.07
+    }
+  ],
+  "bank_groups": [
+    {
+      "bank_group": "Foreign Banks",
+      "total_deposits": 167617.56,
+      "total_advances": 127360.21,
+      "gross_npa": 2415.25,
+      "avg_gnpa_ratio": 1.9,
+      "avg_roa": 0.89
+    },
+    {
+      "bank_group": "Private Sector Banks",
+      "total_deposits": 731437.78,
+      "total_advances": 568318.66,
+      "gross_npa": 13198.02,
+      "avg_gnpa_ratio": 2.39,
+      "avg_roa": 1.13
+    },
+    {
+      "bank_group": "Public Sector Banks",
+      "total_deposits": 1138209.94,
+      "total_advances": 827893.5,
+      "gross_npa": 33316.56,
+      "avg_gnpa_ratio": 4.01,
+      "avg_roa": 1.21
+    },
+    {
+      "bank_group": "Regional Rural Banks",
+      "total_deposits": 70798.19,
+      "total_advances": 52564.77,
+      "gross_npa": 2415.77,
+      "avg_gnpa_ratio": 4.58,
+      "avg_roa": 0.89
+    }
+  ],
+  "states": [
+    {
+      "state": "Maharashtra",
+      "deposits": 499035.48,
+      "credit": 438537.47,
+      "offices": 4214,
+      "cd_ratio": 87.88
+    },
+    {
+      "state": "Uttar Pradesh",
+      "deposits": 509202.65,
+      "credit": 437116.7,
+      "offices": 4295,
+      "cd_ratio": 85.84
+    },
+    {
+      "state": "Kerala",
+      "deposits": 344564.22,
+      "credit": 385212.81,
+      "offices": 3021,
+      "cd_ratio": 111.8
+    },
+    {
+      "state": "Karnataka",
+      "deposits": 396959.49,
+      "credit": 373300.27,
+      "offices": 3179,
+      "cd_ratio": 94.04
+    },
+    {
+      "state": "Tamil Nadu",
+      "deposits": 420712.89,
+      "credit": 356598.12,
+      "offices": 3214,
+      "cd_ratio": 84.76
+    },
+    {
+      "state": "Delhi",
+      "deposits": 295918.97,
+      "credit": 333089.76,
+      "offices": 2454,
+      "cd_ratio": 112.56
+    },
+    {
+      "state": "West Bengal",
+      "deposits": 350076.85,
+      "credit": 309288.3,
+      "offices": 2917,
+      "cd_ratio": 88.35
+    },
+    {
+      "state": "Gujarat",
+      "deposits": 359109.43,
+      "credit": 304099.36,
+      "offices": 2964,
+      "cd_ratio": 84.68
+    },
+    {
+      "state": "Rajasthan",
+      "deposits": 362003.07,
+      "credit": 303021.93,
+      "offices": 3492,
+      "cd_ratio": 83.71
+    },
+    {
+      "state": "Madhya Pradesh",
+      "deposits": 293113.22,
+      "credit": 270852.51,
+      "offices": 2575,
+      "cd_ratio": 92.41
+    },
+    {
+      "state": "Bihar",
+      "deposits": 311956.93,
+      "credit": 264370.7,
+      "offices": 2580,
+      "cd_ratio": 84.75
+    },
+    {
+      "state": "Andhra Pradesh",
+      "deposits": 305921.09,
+      "credit": 256156.68,
+      "offices": 2484,
+      "cd_ratio": 83.73
+    },
+    {
+      "state": "Haryana",
+      "deposits": 288430.39,
+      "credit": 246709.85,
+      "offices": 2553,
+      "cd_ratio": 85.54
+    },
+    {
+      "state": "Telangana",
+      "deposits": 296647.19,
+      "credit": 243078.29,
+      "offices": 2383,
+      "cd_ratio": 81.94
+    },
+    {
+      "state": "Punjab",
+      "deposits": 253763.52,
+      "credit": 215014.91,
+      "offices": 2053,
+      "cd_ratio": 84.73
+    },
+    {
+      "state": "Odisha",
+      "deposits": 245873.03,
+      "credit": 208571.58,
+      "offices": 2205,
+      "cd_ratio": 84.83
+    },
+    {
+      "state": "Assam",
+      "deposits": 241556.49,
+      "credit": 196674.71,
+      "offices": 2072,
+      "cd_ratio": 81.42
+    },
+    {
+      "state": "Uttarakhand",
+      "deposits": 202546.21,
+      "credit": 182139.4,
+      "offices": 1700,
+      "cd_ratio": 89.92
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "deposits": 214859.5,
+      "credit": 179494.24,
+      "offices": 1717,
+      "cd_ratio": 83.54
+    },
+    {
+      "state": "Jharkhand",
+      "deposits": 190419.93,
+      "credit": 163086.97,
+      "offices": 1623,
+      "cd_ratio": 85.65
+    },
+    {
+      "state": "Himachal Pradesh",
+      "deposits": 180911.48,
+      "credit": 156364.23,
+      "offices": 1868,
+      "cd_ratio": 86.43
+    },
+    {
+      "state": "Chhattisgarh",
+      "deposits": 185823.93,
+      "credit": 156315.91,
+      "offices": 1704,
+      "cd_ratio": 84.12
+    },
+    {
+      "state": "Goa",
+      "deposits": 106800.88,
+      "credit": 90942.66,
+      "offices": 801,
+      "cd_ratio": 85.15
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "deposits": 105709.46,
+      "credit": 89639.87,
+      "offices": 835,
+      "cd_ratio": 84.8
+    },
+    {
+      "state": "Tripura",
+      "deposits": 107213.21,
+      "credit": 88339.29,
+      "offices": 847,
+      "cd_ratio": 82.4
+    },
+    {
+      "state": "Sikkim",
+      "deposits": 103956.0,
+      "credit": 86469.89,
+      "offices": 869,
+      "cd_ratio": 83.18
+    },
+    {
+      "state": "Nagaland",
+      "deposits": 102618.63,
+      "credit": 85358.61,
+      "offices": 812,
+      "cd_ratio": 83.18
+    },
+    {
+      "state": "Meghalaya",
+      "deposits": 101180.58,
+      "credit": 85156.63,
+      "offices": 806,
+      "cd_ratio": 84.16
+    },
+    {
+      "state": "Manipur",
+      "deposits": 95118.52,
+      "credit": 81590.9,
+      "offices": 770,
+      "cd_ratio": 85.78
+    },
+    {
+      "state": "Mizoram",
+      "deposits": 95356.04,
+      "credit": 79828.75,
+      "offices": 779,
+      "cd_ratio": 83.72
+    },
+    {
+      "state": "Puducherry",
+      "deposits": 54024.46,
+      "credit": 48412.21,
+      "offices": 371,
+      "cd_ratio": 89.61
+    },
+    {
+      "state": "Chandigarh",
+      "deposits": 51381.95,
+      "credit": 43169.63,
+      "offices": 375,
+      "cd_ratio": 84.02
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Agriculture and Allied Activities",
+      "category": "Priority Sector",
+      "credit_deployed": 22767.64,
+      "yoy_growth": 14.26
+    },
+    {
+      "sector": "Industry - Micro & Small",
+      "category": "Priority Sector",
+      "credit_deployed": 9757.56,
+      "yoy_growth": 13.96
+    },
+    {
+      "sector": "Industry - Medium",
+      "category": "Non-Priority Sector",
+      "credit_deployed": 6505.04,
+      "yoy_growth": 13.64
+    },
+    {
+      "sector": "Industry - Large",
+      "category": "Non-Priority Sector",
+      "credit_deployed": 31913.73,
+      "yoy_growth": 15.97
+    },
+    {
+      "sector": "Services - Transport Operators",
+      "category": "Services",
+      "credit_deployed": 5932.6,
+      "yoy_growth": 12.95
+    },
+    {
+      "sector": "Services - Trade (Wholesale & Retail)",
+      "category": "Services",
+      "credit_deployed": 15820.26,
+      "yoy_growth": 12.75
+    },
+    {
+      "sector": "Services - Commercial Real Estate",
+      "category": "Services",
+      "credit_deployed": 7910.13,
+      "yoy_growth": 13.49
+    },
+    {
+      "sector": "Services - NBFCs",
+      "category": "Services",
+      "credit_deployed": 21752.85,
+      "yoy_growth": 11.08
+    },
+    {
+      "sector": "Personal Loans - Housing",
+      "category": "Retail / Personal",
+      "credit_deployed": 29662.98,
+      "yoy_growth": 13.88
+    },
+    {
+      "sector": "Personal Loans - Vehicle Loans",
+      "category": "Retail / Personal",
+      "credit_deployed": 9887.66,
+      "yoy_growth": 13.62
+    },
+    {
+      "sector": "Personal Loans - Credit Cards",
+      "category": "Retail / Personal",
+      "credit_deployed": 3955.06,
+      "yoy_growth": 13.96
+    },
+    {
+      "sector": "Personal Loans - Other Personal Loans",
+      "category": "Retail / Personal",
+      "credit_deployed": 11865.19,
+      "yoy_growth": 11.92
+    }
+  ],
+  "anomalies": [
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q3",
+      "entity": "Ludhiana",
+      "observed_value": 7626.97,
+      "baseline_value": 1037.43,
+      "deviation": "3.69 std dev",
+      "severity": "High",
+      "evidence": "Value 7,626.97 deviates by 3.69 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2022-Q4",
+      "entity": "Ambala",
+      "observed_value": 7111.89,
+      "baseline_value": 1037.43,
+      "deviation": "3.4 std dev",
+      "severity": "High",
+      "evidence": "Value 7,111.89 deviates by 3.40 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q3",
+      "entity": "Kanpur Nagar",
+      "observed_value": 7689.37,
+      "baseline_value": 1037.43,
+      "deviation": "3.73 std dev",
+      "severity": "High",
+      "evidence": "Value 7,689.37 deviates by 3.73 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Dharwad",
+      "observed_value": 7983.22,
+      "baseline_value": 1037.43,
+      "deviation": "3.89 std dev",
+      "severity": "High",
+      "evidence": "Value 7,983.22 deviates by 3.89 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q4",
+      "entity": "Silchar",
+      "observed_value": 9086.86,
+      "baseline_value": 1037.43,
+      "deviation": "4.51 std dev",
+      "severity": "Critical",
+      "evidence": "Value 9,086.86 deviates by 4.51 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q2",
+      "entity": "Gorakhpur",
+      "observed_value": 7117.58,
+      "baseline_value": 1037.43,
+      "deviation": "3.41 std dev",
+      "severity": "High",
+      "evidence": "Value 7,117.58 deviates by 3.41 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q2",
+      "entity": "South Tripura",
+      "observed_value": 9056.98,
+      "baseline_value": 1037.43,
+      "deviation": "4.49 std dev",
+      "severity": "Critical",
+      "evidence": "Value 9,056.98 deviates by 4.49 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q2",
+      "entity": "Nagaon",
+      "observed_value": 87921.6,
+      "baseline_value": 1037.43,
+      "deviation": "48.69 std dev",
+      "severity": "Critical",
+      "evidence": "Value 87,921.60 deviates by 48.69 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q2",
+      "entity": "Warangal",
+      "observed_value": 7201.65,
+      "baseline_value": 1037.43,
+      "deviation": "3.45 std dev",
+      "severity": "High",
+      "evidence": "Value 7,201.65 deviates by 3.45 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Chandigarh",
+      "observed_value": 7927.69,
+      "baseline_value": 1037.43,
+      "deviation": "3.86 std dev",
+      "severity": "High",
+      "evidence": "Value 7,927.69 deviates by 3.86 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q1",
+      "entity": "Muzaffarpur",
+      "observed_value": 6982.96,
+      "baseline_value": 1037.43,
+      "deviation": "3.33 std dev",
+      "severity": "High",
+      "evidence": "Value 6,982.96 deviates by 3.33 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2020-Q1",
+      "entity": "Coimbatore",
+      "observed_value": 26309.25,
+      "baseline_value": 1037.43,
+      "deviation": "14.16 std dev",
+      "severity": "Critical",
+      "evidence": "Value 26,309.25 deviates by 14.16 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2019-Q3",
+      "entity": "Ambala",
+      "observed_value": 10355.1,
+      "baseline_value": 1037.43,
+      "deviation": "5.22 std dev",
+      "severity": "Critical",
+      "evidence": "Value 10,355.10 deviates by 5.22 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q3",
+      "entity": "Nanded",
+      "observed_value": 7906.92,
+      "baseline_value": 1037.43,
+      "deviation": "3.85 std dev",
+      "severity": "High",
+      "evidence": "Value 7,906.92 deviates by 3.85 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q1",
+      "entity": "Chennai",
+      "observed_value": 6749.36,
+      "baseline_value": 1037.43,
+      "deviation": "3.2 std dev",
+      "severity": "High",
+      "evidence": "Value 6,749.36 deviates by 3.20 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Bareilly",
+      "observed_value": 7085.74,
+      "baseline_value": 1037.43,
+      "deviation": "3.39 std dev",
+      "severity": "High",
+      "evidence": "Value 7,085.74 deviates by 3.39 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Khordha",
+      "observed_value": 9436.15,
+      "baseline_value": 1037.43,
+      "deviation": "4.71 std dev",
+      "severity": "Critical",
+      "evidence": "Value 9,436.15 deviates by 4.71 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Anantnag",
+      "observed_value": 7904.87,
+      "baseline_value": 1037.43,
+      "deviation": "3.85 std dev",
+      "severity": "High",
+      "evidence": "Value 7,904.87 deviates by 3.85 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2021-Q4",
+      "entity": "Tirunelveli",
+      "observed_value": 6836.22,
+      "baseline_value": 1037.43,
+      "deviation": "3.25 std dev",
+      "severity": "High",
+      "evidence": "Value 6,836.22 deviates by 3.25 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2022-Q2",
+      "entity": "Shimla",
+      "observed_value": 13786.5,
+      "baseline_value": 1037.43,
+      "deviation": "7.14 std dev",
+      "severity": "Critical",
+      "evidence": "Value 13,786.50 deviates by 7.14 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q1",
+      "entity": "Mysuru",
+      "observed_value": 8525.98,
+      "baseline_value": 1037.43,
+      "deviation": "4.2 std dev",
+      "severity": "Critical",
+      "evidence": "Value 8,525.98 deviates by 4.20 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q4",
+      "entity": "Darbhanga",
+      "observed_value": 7575.62,
+      "baseline_value": 1037.43,
+      "deviation": "3.66 std dev",
+      "severity": "High",
+      "evidence": "Value 7,575.62 deviates by 3.66 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2020-Q4",
+      "entity": "Imphal East",
+      "observed_value": 14059.2,
+      "baseline_value": 1037.43,
+      "deviation": "7.3 std dev",
+      "severity": "Critical",
+      "evidence": "Value 14,059.20 deviates by 7.30 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2021-Q4",
+      "entity": "Central Delhi",
+      "observed_value": 37663.5,
+      "baseline_value": 1037.43,
+      "deviation": "20.53 std dev",
+      "severity": "Critical",
+      "evidence": "Value 37,663.50 deviates by 20.53 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q2",
+      "entity": "Ahmedabad",
+      "observed_value": 7293.78,
+      "baseline_value": 1037.43,
+      "deviation": "3.51 std dev",
+      "severity": "High",
+      "evidence": "Value 7,293.78 deviates by 3.51 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2022-Q4",
+      "entity": "Kanpur Nagar",
+      "observed_value": 7591.72,
+      "baseline_value": 1037.43,
+      "deviation": "3.67 std dev",
+      "severity": "High",
+      "evidence": "Value 7,591.72 deviates by 3.67 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q4",
+      "entity": "Salem",
+      "observed_value": 7668.83,
+      "baseline_value": 1037.43,
+      "deviation": "3.72 std dev",
+      "severity": "High",
+      "evidence": "Value 7,668.83 deviates by 3.72 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q4",
+      "entity": "Bareilly",
+      "observed_value": 6933.58,
+      "baseline_value": 1037.43,
+      "deviation": "3.3 std dev",
+      "severity": "High",
+      "evidence": "Value 6,933.58 deviates by 3.30 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2024-Q3",
+      "entity": "Belagavi",
+      "observed_value": 7134.41,
+      "baseline_value": 1037.43,
+      "deviation": "3.42 std dev",
+      "severity": "High",
+      "evidence": "Value 7,134.41 deviates by 3.42 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    },
+    {
+      "metric": "Total Credit Crore",
+      "period": "FY2023-Q2",
+      "entity": "Ernakulam",
+      "observed_value": 6952.91,
+      "baseline_value": 1037.43,
+      "deviation": "3.32 std dev",
+      "severity": "High",
+      "evidence": "Value 6,952.91 deviates by 3.32 standard deviations from peer average (1,037.43).",
+      "detection_method": "Z-Score"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+// ==============================================================================
+// AI Banking Financial Intelligence - Power BI DAX Measures Dictionary
+// ==============================================================================
+
+// 1. Total System Deposits (₹ Crores)
+Total Deposits = 
+SUM(fact_bank_performance[total_deposits_crore])
+
+// 2. Gross Bank Advances / Credit Deployed (₹ Crores)
+Total Advances = 
+SUM(fact_bank_performance[total_advances_crore])
+
+// 3. System Credit-Deposit (CD) Ratio (%)
+CD Ratio % = 
+DIVIDE([Total Advances], [Total Deposits], 0) * 100
+
+// 4. Gross Non-Performing Assets (₹ Crores)
+Total Gross NPA = 
+SUM(fact_bank_performance[gross_npa_crore])
+
+// 5. Net Non-Performing Assets (₹ Crores)
+Total Net NPA = 
+SUM(fact_bank_performance[net_npa_crore])
+
+// 6. System Gross NPA Ratio (%)
+GNPA Ratio % = 
+DIVIDE([Total Gross NPA], [Total Advances], 0) * 100
+
+// 7. System Net NPA Ratio (%)
+NNPA Ratio % = 
+DIVIDE([Total Net NPA], [Total Advances], 0) * 100
+
+// 8. Provision Coverage Ratio (PCR %)
+Provision Coverage Ratio % = 
+DIVIDE([Total Gross NPA] - [Total Net NPA], [Total Gross NPA], 1) * 100
+
+// 9. Average Return on Assets (RoA %)
+Average RoA % = 
+AVERAGE(fact_bank_performance[return_on_assets_pct])
+
+// 10. Year-over-Year (YoY) Deposit Growth Rate (%)
+YoY Deposit Growth % = 
+VAR CurrentDeposits = [Total Deposits]
+VAR PriorYearDeposits = 
+    CALCULATE(
+        [Total Deposits],
+        SAMEPERIODLASTYEAR(dim_periods[period_end_date])
+    )
+RETURN
+DIVIDE(CurrentDeposits - PriorYearDeposits, PriorYearDeposits, 0) * 100
+
+// 11. Year-over-Year (YoY) Credit Growth Rate (%)
+YoY Credit Growth % = 
+VAR CurrentCredit = [Total Advances]
+VAR PriorYearCredit = 
+    CALCULATE(
+        [Total Advances],
+        SAMEPERIODLASTYEAR(dim_periods[period_end_date])
+    )
+RETURN
+DIVIDE(CurrentCredit - PriorYearCredit, PriorYearCredit, 0) * 100
+
+// 12. Total Reporting Commercial Banking Offices
+Total Offices = 
+SUM(fact_district_credit_deposit[number_of_offices])
+
+// 13. State Credit Contribution Share (%)
+State Credit Share % = 
+DIVIDE(
+    SUM(fact_district_credit_deposit[total_credit_crore]),
+    CALCULATE(SUM(fact_district_credit_deposit[total_credit_crore]), ALL(dim_geography[state_name])),
+    0
+) * 100
